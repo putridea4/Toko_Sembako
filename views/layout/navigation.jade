@@ -1,0 +1,30 @@
+header.main-header
+	a(href='/').logo
+		span.logo-mini
+			<b>TKS</b>
+		span.logo-lg
+			<b>SEMBAKO</b>
+	nav(role='navigation').navbar.navbar-static-top
+		a(href='#', role='button', data-toggle='offcanvas').sidebar-toggle
+			span.sr-only Toggle Navigation
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+		div.navbar-custom-menu
+			ul.nav.navbar-nav
+				li.dropdown.user.user-menu
+					a(href='#',data-toggle='dropdown').dropdown-toggle
+						img(src='/adminlte/dist/img/user2-160x160.jpg',alt='User Image').user-image
+						span.hidden-xs
+							| Putri Dea Apriliana
+					ul.dropdown-menu
+						li.user-header
+							img(src='/adminlte/dist/img/user2-160x160.jpg',alt='User Image').img-circle
+							p
+								| Putri Dea Apriliana
+								small
+									| Member since Nov. 2012
+						li.user-footer
+							.pull-right
+								a(href='/logout').btn.btn-default.btn-flat
+									| Sign out
