@@ -15,7 +15,8 @@ var methodOverride = require('method-override');
 
 
 var connection  = require('express-myconnection'); 
-var mysql = require('mysql');
+var mysql = require('mysql2');
+require('dotenv').config();
 
 var app = express();
 // view engine setup
